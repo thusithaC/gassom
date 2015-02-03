@@ -115,7 +115,7 @@ classdef GASSOM_Online  < handle
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %            updateBasis
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    dummy change
         
         
         function updateBasis(this,X)          
