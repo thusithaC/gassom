@@ -1,5 +1,5 @@
 # GASSOM
-# contact tnc<at>connect<dot>ust<dot>hk
+## contact tnc(at)connect(dot)ust(dot)hk
 This is the code for the Generative Adaptive Self Organizing Map
 
 Readme and full instructions still on the way. 
