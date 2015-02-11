@@ -42,4 +42,4 @@ end
 disp('End of training...');
 filename = datestr(now, 'yyyymmdd_HHMMSS');
 %assumes the availability of a folder 'data' in the current path 
-save(['data\',filename,'_batch.mat'],'asmodel','randIdx','rhov','rhoh','ncapture','Bases_cap');  
+save(['data\',filename,'_batch.mat'],'asmodel','randIdx','ncapture','Bases_cap');  

@@ -37,5 +37,5 @@ end
 
 disp('End of training...');
 filename = datestr(now, 'yyyymmdd_HHMMSS');
-save(['data\',filename,'_online_soft.mat'],'asmodel','randIdx','rhov','rhoh','ncapture','Bases_cap'); 
+save(['data\',filename,'_online_soft.mat'],'asmodel','randIdx','ncapture','Bases_cap'); 
 
