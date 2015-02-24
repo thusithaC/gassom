@@ -25,8 +25,8 @@ for iter = 1:max_iter
    X = envmodel.genMonoEpochSac();
    if (mod(iter-1,interval)==0)
        disp(iter);
-       Bases_cap{cap_point,1}=gather(asmodel.bases{1});
-       Bases_cap{cap_point,2}=gather(asmodel.bases{2});
+       Bases_cap{cap_point,1}=(asmodel.bases{1});
+       Bases_cap{cap_point,2}=(asmodel.bases{2});
        cap_point=cap_point+1;
        asmodel.visualizeBases();
    end
