@@ -59,7 +59,7 @@ classdef GASSOM_Online  < handle
             obj.n_basis = obj.size_subspace * obj.n_subspace;
             obj.alpha_A = 0.08;   
             obj.alpha_C = 1e-4; 
-            obj.tconst = 8000;  
+            obj.tconst = 8000*10;  
             obj.sigma_A = 2;
             obj.tconst_n = 8000;
             obj.sigma_C = 0.5;
